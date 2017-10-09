@@ -1,3 +1,8 @@
 # Aurochses
 
-List of all packages creaeted by Aurochses Team
+List of all projects creaeted by Aurochses
+
+## Projects
+
+Name | GitHub | NuGet | Statuses
+-----|--------|-------|---------
