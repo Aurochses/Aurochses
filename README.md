@@ -7,7 +7,7 @@ List of all projects creaeted by Aurochses
 Name | GitHub | NuGet | NuGet Status | Status
 -----|--------|-------|--------------|-------
 **Aurochses** | - | - | - | -
-Aurochses.Runtime | [GitHub](https://github.com/Aurochses/Aurochses.Runtime) | [![NuGet](https://img.shields.io/nuget/v/Aurochses.Runtime.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Runtime) | [![NuGet Status](http://nugetstatus.com/Aurochses.Runtime.png)](http://nugetstatus.com/packages/Aurochses.Runtime) | REFACTOR
+Aurochses.Runtime | [GitHub](https://github.com/Aurochses/Aurochses.Runtime) | [![NuGet](https://img.shields.io/nuget/v/Aurochses.Runtime.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Runtime) | [![NuGet Status](http://nugetstatus.com/Aurochses.Runtime.png)](http://nugetstatus.com/packages/Aurochses.Runtime) | OK
 **Aurochses.AspNetCore** | - | - | - | -
 **Aurochses.Data** | - | - | - | -
 Aurochses.Data | [GitHub](https://github.com/Aurochses/Aurochses.Data) | [![NuGet](https://img.shields.io/nuget/v/Aurochses.Data.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data) | [![NuGet Status](http://nugetstatus.com/Aurochses.Data.png)](http://nugetstatus.com/packages/Aurochses.Data) | OK
