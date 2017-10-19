@@ -1,6 +1,6 @@
 # Aurochses
 
-List of all projects creaeted by Aurochses
+List of all projects created by Aurochses
 
 ## Projects
 
