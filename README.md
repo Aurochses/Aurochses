@@ -2,7 +2,7 @@
 
 List of all projects created by Aurochses
 
-## Projects
+## .NET
 
 Name | GitHub | NuGet | NuGet Status | Status
 -----|--------|-------|--------------|-------
@@ -36,3 +36,9 @@ Aurochses.Xunit | [GitHub](https://github.com/Aurochses/Aurochses.Xunit) | [![Nu
 Aurochses.Xunit.AspNetCore.Mvc | [GitHub](https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc) | [![NuGet](https://img.shields.io/nuget/v/Aurochses.Xunit.AspNetCore.Mvc.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.AspNetCore.Mvc) | [![NuGet Status](http://nugetstatus.com/Aurochses.Xunit.AspNetCore.Mvc.png)](http://nugetstatus.com/packages/Aurochses.Xunit.AspNetCore.Mvc) | OK
 Aurochses.Xunit.AspNetCore.Mvc.Localization | [GitHub](https://github.com/Aurochses/Aurochses.Xunit.AspNetCore.Mvc.Localization) | [![NuGet](https://img.shields.io/nuget/v/Aurochses.Xunit.AspNetCore.Mvc.Localization.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.AspNetCore.Mvc.Localization) | [![NuGet Status](http://nugetstatus.com/Aurochses.Xunit.AspNetCore.Mvc.Localization.png)](http://nugetstatus.com/packages/Aurochses.Xunit.AspNetCore.Mvc.Localization) | OK
 Aurochses.Xunit.Selenium | [GitHub](https://github.com/Aurochses/Aurochses.Xunit.Selenium) | [![NuGet](https://img.shields.io/nuget/v/Aurochses.Xunit.Selenium.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Xunit.Selenium) | [![NuGet Status](http://nugetstatus.com/Aurochses.Xunit.Selenium.png)](http://nugetstatus.com/packages/Aurochses.Xunit.Selenium) | OK
+
+## Angular
+
+Name | GitHub | npm | npm Status | Status
+-----|--------|-------|--------------|-------
+Aurochses.Angular.Forms | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Forms) | - | - | -
