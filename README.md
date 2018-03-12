@@ -43,3 +43,4 @@ Aurochses.Xunit.Selenium | [GitHub](https://github.com/Aurochses/Aurochses.Xunit
 Name | GitHub | npm | npm Status | Status
 -----|--------|-------|--------------|-------
 Aurochses.Angular.Forms | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Forms) | - | - | -
+Aurochses.Angular.Template | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Template) | - | - | -
