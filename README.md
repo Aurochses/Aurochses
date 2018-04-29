@@ -46,12 +46,9 @@ Aurochses.Xunit.Selenium | [GitHub](https://github.com/Aurochses/Aurochses.Xunit
 
 Name | GitHub | npm | npm Status | Status
 -----|--------|-------|--------------|-------
-Aurochses.Angular.Auth | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Auth) | 
-[![npm](https://img.shields.io/npm/v/@aurochses/angular-auth.svg)](https://www.npmjs.com/package/@aurochses/angular-auth)
- | - | -
-Aurochses.Angular.Forms | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Forms) | 
-[![npm](https://img.shields.io/npm/v/@aurochses/angular-forms.svg)](https://www.npmjs.com/package/@aurochses/angular-forms)
- | - | -
-Aurochses.Angular.Template | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Template) | 
-[![npm](https://img.shields.io/npm/v/@aurochses/angular-template.svg)](https://www.npmjs.com/package/@aurochses/angular-template)
- | - | -
+Aurochses.Angular.Auth | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Auth) | [![npm](https://img.shields.io/npm/v/@aurochses/angular-auth.svg)](https://www.npmjs.com/package/@aurochses/angular-auth)
+ | [![Dependency Status](https://david-dm.org/Aurochses/Aurochses.Angular.Auth.svg)](https://david-dm.org/Aurochses/Aurochses.Angular.Auth) [![devDependency Status](https://david-dm.org/Aurochses/Aurochses.Angular.Auth/dev-status.svg)](https://david-dm.org/Aurochses/Aurochses.Angular.Auth?type=dev) | OK
+Aurochses.Angular.Auth | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Auth) | [![npm](https://img.shields.io/npm/v/@aurochses/angular-auth.svg)](https://www.npmjs.com/package/@aurochses/angular-auth)
+ | [![Dependency Status](https://david-dm.org/Aurochses/Aurochses.Angular.Auth.svg)](https://david-dm.org/Aurochses/Aurochses.Angular.Auth) [![devDependency Status](https://david-dm.org/Aurochses/Aurochses.Angular.Auth/dev-status.svg)](https://david-dm.org/Aurochses/Aurochses.Angular.Auth?type=dev) | OK
+Aurochses.Angular.Auth | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Auth) | [![npm](https://img.shields.io/npm/v/@aurochses/angular-auth.svg)](https://www.npmjs.com/package/@aurochses/angular-auth)
+ | [![Dependency Status](https://david-dm.org/Aurochses/Aurochses.Angular.Auth.svg)](https://david-dm.org/Aurochses/Aurochses.Angular.Auth) [![devDependency Status](https://david-dm.org/Aurochses/Aurochses.Angular.Auth/dev-status.svg)](https://david-dm.org/Aurochses/Aurochses.Angular.Auth?type=dev) | OK
