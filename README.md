@@ -46,5 +46,12 @@ Aurochses.Xunit.Selenium | [GitHub](https://github.com/Aurochses/Aurochses.Xunit
 
 Name | GitHub | npm | npm Status | Status
 -----|--------|-------|--------------|-------
-Aurochses.Angular.Forms | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Forms) | - | - | -
-Aurochses.Angular.Template | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Template) | - | - | -
+Aurochses.Angular.Auth | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Auth) | 
+[![npm](https://img.shields.io/npm/v/@aurochses/angular-auth.svg)](https://www.npmjs.com/package/@aurochses/angular-auth)
+ | - | -
+Aurochses.Angular.Forms | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Forms) | 
+[![npm](https://img.shields.io/npm/v/@aurochses/angular-forms.svg)](https://www.npmjs.com/package/@aurochses/angular-forms)
+ | - | -
+Aurochses.Angular.Template | [GitHub](https://github.com/Aurochses/Aurochses.Angular.Template) | 
+[![npm](https://img.shields.io/npm/v/@aurochses/angular-template.svg)](https://www.npmjs.com/package/@aurochses/angular-template)
+ | - | -
