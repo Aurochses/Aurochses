@@ -1,3 +1,10 @@
+## Aurochses main website
+This site contains information about the Aurochses projects, as well as guides, 
+links to community and other things. 
+
+Feel free to submit issues if you run into problems or you have suggestions on 
+how to improve it!
+
 # Aurochses
 
 List of all projects created by Aurochses
