@@ -15,14 +15,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
 </head>
 
 <body>
@@ -48,139 +40,14 @@
                 </thead>
 
                 <tbody>
-                    <!-- json2html -->
+                    <!-- scripts/dotNetTable.js -->
                 </tbody>
             </table>
-
-            <script>
-                var projects = [
-                    {
-                        groupName: 'Aurochses',
-                        items: [
-                            {
-                                name: 'Aurochses.Runtime',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Runtime',
-                                nuGetPackage: 'Aurochses.Runtime',
-                                info: 'OK'
-                            }
-                        ]
-                    },
-                    {
-                        groupName: 'Aurochses.Data',
-                        items: [
-                            {
-                                name: 'Aurochses.Data',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Data',
-                                nuGetPackage: 'Aurochses.Data',
-                                info: 'OK'
-                            }
-                        ]
-                    },
-                    {
-                        groupName: 'Aurochses.Xunit',
-                        items: [
-                            {
-                                name: 'Aurochses.Xunit',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Xunit',
-                                nuGetPackage: 'Aurochses.Xunit',
-                                info: 'OK'
-                            }
-                        ]
-                    }
-                ];
-
-                var transforms = {
-                    group: {
-                        '<>': 'tr',
-                        'html': [
-                            {
-                                '<>': 'th',
-                                'scope': 'rowgroup',
-                                'colspan': 6,
-                                'html': '${groupName}'
-                            },
-                            {
-                                '<>': 'div',
-                                'html': function (obj, index) {
-                                    return json2html.transform(obj.items, transforms.project);
-                                }
-                            }
-                        ]
-                    },
-                    project: {
-                        '<>': 'tr',
-                        'html': [
-                            {
-                                '<>': 'th',
-                                'html': function (obj, index) {
-                                    return index + 1;
-                                }
-                            },
-                            {
-                                '<>': 'td',
-                                'html': '${name}'
-                            },
-                            {
-                                '<>': 'td',
-                                'html': [
-                                    {
-                                        '<>': 'a',
-                                        'target': '_blank',
-                                        'href': 'https://github.com/${gitHubOwner}/${gitHubRepository}',
-                                        'html': 'GitHub'
-                                    }
-                                ]
-                            },
-                            {
-                                '<>': 'td',
-                                'html': [
-                                    {
-                                        '<>': 'a',
-                                        'target': '_blank',
-                                        'href': 'https://www.nuget.org/packages/${nuGetPackage}',
-                                        'html': [
-                                            {
-                                                '<>': 'img',
-                                                'src': 'https://img.shields.io/nuget/v/${nuGetPackage}.svg?style=flat-square'
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                '<>': 'td',
-                                'html': [
-                                    {
-                                        '<>': 'a',
-                                        'target': '_blank',
-                                        'href': 'http://nugetstatus.com/packages/${nuGetPackage}',
-                                        'html': [
-                                            {
-                                                '<>': 'img',
-                                                'src': 'http://nugetstatus.com/${nuGetPackage}.png'
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                '<>': 'td',
-                                'html': '${info}'
-                            },
-                        ]
-                    }
-                };
-
-                $('#dotNetTable > tbody').append(json2html.transform(projects, transforms.group));
-            </script>
         </div>
 
         <p>
-            <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseDotNet" aria-expanded="false"
-                aria-controls="collapseExample">
+            <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseDotNet"
+                aria-expanded="false" aria-controls="collapseExample">
                 <i class="far fa-file-archive fa-fw"></i> Archived projects
             </button>
         </p>
@@ -193,94 +60,14 @@
                                 <th scope="col">#</th>
                                 <th scope="col">Name</th>
                                 <th scope="col">GitHub</th>
-                                <th scope="col">Moved To</th>
+                                <th scope="col">Info</th>
                             </tr>
                         </thead>
 
                         <tbody>
-                            <!-- json2html -->
+                            <!-- scripts/dotNetArchivedTable.js -->
                         </tbody>
                     </table>
-
-                    <script>
-                        var projects = [
-                            {
-                                name: 'Aurochses.Module.Autofac.EntityFramework',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Module.Autofac.EntityFramework',
-                                movedToGitHubOwner: 'Aurochses',
-                                movedToGitHubRepository: 'Aurochses.Data.Autofac.EntityFrameworkCore',
-                            },
-                            {
-                                name: 'Aurochses.Module.Autofac.EntityFrameworkCore',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Module.Autofac.EntityFrameworkCore',
-                                movedToGitHubOwner: 'Aurochses',
-                                movedToGitHubRepository: 'Aurochses.Data.Autofac.EntityFrameworkCore',
-                            },
-                            {
-                                name: 'Aurochses.Module.Business.Autofac.EntityFramework',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Module.Business.Autofac.EntityFramework',
-                                movedToGitHubOwner: 'Aurochses',
-                                movedToGitHubRepository: 'Aurochses.Data.Autofac.EntityFrameworkCore',
-                            },
-                            {
-                                name: 'Aurochses.Module.Business.Autofac.EntityFrameworkCore',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Module.Business.Autofac.EntityFrameworkCore',
-                                movedToGitHubOwner: 'Aurochses',
-                                movedToGitHubRepository: 'Aurochses.Data.Autofac.EntityFrameworkCore',
-                            },
-                            {
-                                name: 'Aurochses.Module.Data.Autofac',
-                                gitHubOwner: 'Aurochses',
-                                gitHubRepository: 'Aurochses.Module.Data.Autofac',
-                                movedToGitHubOwner: 'Aurochses',
-                                movedToGitHubRepository: 'Aurochses.Data.Autofac.EntityFrameworkCore',
-                            }
-                        ];
-
-                        var transforms = {
-                            '<>': 'tr',
-                            'html': [
-                                {
-                                    '<>': 'th',
-                                    'html': function (obj, index) {
-                                        return index + 1;
-                                    }
-                                },
-                                {
-                                    '<>': 'td',
-                                    'html': '${name}'
-                                },
-                                {
-                                    '<>': 'td',
-                                    'html': [
-                                        {
-                                            '<>': 'a',
-                                            'target': '_blank',
-                                            'href': 'https://github.com/${gitHubOwner}/${gitHubRepository}',
-                                            'html': 'GitHub'
-                                        }
-                                    ]
-                                },
-                                {
-                                    '<>': 'td',
-                                    'html': [
-                                        {
-                                            '<>': 'a',
-                                            'target': '_blank',
-                                            'href': 'https://github.com/${movedToGitHubOwner}/${movedToGitHubRepository}',
-                                            'html': '${movedToGitHubRepository}'
-                                        }
-                                    ]
-                                },
-                            ]
-                        };
-
-                        $('#dotNetArchivedTable > tbody').append(json2html.transform(projects, transforms));
-                    </script>
                 </div>
             </div>
         </div>
@@ -303,101 +90,9 @@
                 </thead>
 
                 <tbody>
-                    <!-- json2html -->
+                    <!-- scripts/angularTable.js -->
                 </tbody>
             </table>
-
-            <script>
-                var projects = [
-                    {
-                        name: 'Aurochses.Angular.Auth',
-                        gitHubOwner: 'Aurochses',
-                        gitHubRepository: 'Aurochses.Angular.Auth',
-                        npmPackage: '@aurochses/angular-auth',
-                        info: 'OK'
-                    }
-                ];
-
-                var transforms = {
-                    '<>': 'tr',
-                    'html': [
-                        {
-                            '<>': 'th',
-                            'html': function (obj, index) {
-                                return index + 1;
-                            }
-                        },
-                        {
-                            '<>': 'td',
-                            'html': '${name}'
-                        },
-                        {
-                            '<>': 'td',
-                            'html': [
-                                {
-                                    '<>': 'a',
-                                    'target': '_blank',
-                                    'href': 'https://github.com/${gitHubOwner}/${gitHubRepository}',
-                                    'html': 'GitHub'
-                                }
-                            ]
-                        },
-                        {
-                            '<>': 'td',
-                            'html': [
-                                {
-                                    '<>': 'a',
-                                    'target': '_blank',
-                                    'href': 'https://www.npmjs.com/package/${npmPackage}',
-                                    'html': [
-                                        {
-                                            '<>': 'img',
-                                            'src': 'https://img.shields.io/npm/v/${npmPackage}.svg?style=flat-square'
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            '<>': 'td',
-                            'html': [
-                                {
-                                    '<>': 'a',
-                                    'target': '_blank',
-                                    'href': 'https://david-dm.org/${gitHubOwner}/${gitHubRepository}',
-                                    'html': [
-                                        {
-                                            '<>': 'img',
-                                            'src': 'https://david-dm.org/${gitHubOwner}/${gitHubRepository}.svg'
-                                        }
-                                    ]
-                                },
-                                {
-                                    '<>': 'span',
-                                    'html': ' '
-                                },
-                                {
-                                    '<>': 'a',
-                                    'target': '_blank',
-                                    'href': 'https://david-dm.org/${gitHubOwner}/${gitHubRepository}?type=dev',
-                                    'html': [
-                                        {
-                                            '<>': 'img',
-                                            'src': 'https://david-dm.org/${gitHubOwner}/${gitHubRepository}/dev-status.svg'
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            '<>': 'td',
-                            'html': '${info}'
-                        },
-                    ]
-                };
-
-                $('#angularTable > tbody').append(json2html.transform(projects, transforms));
-            </script>
         </div>
     </div>
 
@@ -412,6 +107,16 @@
             </a>
         </p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json2html/1.2.0/json2html.min.js"></script>
+
+    <script src="scripts/dotNetTable.js"></script>
+    <script src="scripts/dotNetArchivedTable.js"></script>
+
+    <script src="scripts/angularTable.js"></script>
 </body>
 
 </html>
