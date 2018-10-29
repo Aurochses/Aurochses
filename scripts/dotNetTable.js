@@ -27,6 +27,13 @@ var projects = [
                 "gitHubRepository": "Aurochses.Data.Autofac.EntityFrameworkCore",
                 "nuGetPackage": "Aurochses.Data.Autofac.EntityFrameworkCore",
                 "info": "OK"
+            },
+            {
+                "name": "Aurochses.Data.AutoMapper",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Data.AutoMapper",
+                "nuGetPackage": "Aurochses.Data.AutoMapper",
+                "info": "OK"
             }
         ]
     },
