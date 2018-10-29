@@ -20,6 +20,13 @@ var projects = [
                 "gitHubRepository": "Aurochses.Data",
                 "nuGetPackage": "Aurochses.Data",
                 "info": "OK"
+            },
+            {
+                "name": "Aurochses.Data.Autofac.EntityFrameworkCore",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Data.Autofac.EntityFrameworkCore",
+                "nuGetPackage": "Aurochses.Data.Autofac.EntityFrameworkCore",
+                "info": "OK"
             }
         ]
     },
