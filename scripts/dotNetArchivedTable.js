@@ -1,5 +1,11 @@
 var projects = [
     {
+        "name": "Aurochses.Data.EntityFramework",
+        "gitHubOwner": "Aurochses",
+        "gitHubRepository": "Aurochses.Data.EntityFramework",
+        "info": "Stopped support .NET Framework.<br />Moved to <a href=\"https://github.com/Aurochses/Aurochses.Data.EntityFrameworkCore\" target=\"_blank\">Aurochses.Data.EntityFrameworkCore</a>"
+    },
+    {
         "name": "Aurochses.Module.Autofac.EntityFramework",
         "gitHubOwner": "Aurochses",
         "gitHubRepository": "Aurochses.Module.Autofac.EntityFramework",
