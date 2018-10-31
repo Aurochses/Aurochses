@@ -34,6 +34,13 @@ var projects = [
                 "gitHubRepository": "Aurochses.Data.AutoMapper",
                 "nuGetPackage": "Aurochses.Data.AutoMapper",
                 "info": "OK"
+            },
+            {
+                "name": "Aurochses.Data.EntityFrameworkCore",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Data.EntityFrameworkCore",
+                "nuGetPackage": "Aurochses.Data.EntityFrameworkCore",
+                "info": "OK"
             }
         ]
     },
@@ -134,3 +141,11 @@ var transforms = {
 };
 
 $("#dotNetTable > tbody").append(json2html.transform(projects, transforms.group));
+
+var total = 0;
+
+for (i = 0; i < projects.length; i++) {
+    total += projects[i].items.length;
+}
+
+$("#dotNetTableTotal").text(total);

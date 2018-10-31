@@ -45,3 +45,5 @@ var transforms = {
 };
 
 $("#angularArchivedTable > tbody").append(json2html.transform(projects, transforms));
+
+$("#angularArchivedTableTotal").text(projects.length);

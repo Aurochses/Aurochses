@@ -87,3 +87,5 @@ var transforms = {
 };
 
 $("#angularTable > tbody").append(json2html.transform(projects, transforms));
+
+$("#angularTableTotal").text(projects.length);
