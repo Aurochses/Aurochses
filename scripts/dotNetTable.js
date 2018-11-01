@@ -41,6 +41,13 @@ var projects = [
                 "gitHubRepository": "Aurochses.Data.EntityFrameworkCore",
                 "nuGetPackage": "Aurochses.Data.EntityFrameworkCore",
                 "info": "OK"
+            },
+            {
+                "name": "Aurochses.Data.Extensions.MsSql",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Data.Extensions.MsSql",
+                "nuGetPackage": "Aurochses.Data.Extensions.MsSql",
+                "info": "OK"
             }
         ]
     },
