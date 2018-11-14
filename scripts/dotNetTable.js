@@ -52,6 +52,18 @@ var projects = [
         ]
     },
     {
+        "groupName": "Aurochses.Extensions",
+        "items": [
+            {
+                "name": "Aurochses.Extensions.Configuration",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Extensions.Configuration",
+                "nuGetPackage": "Aurochses.Extensions.Configuration",
+                "info": "OK"
+            }
+        ]
+    },
+    {
         "groupName": "Aurochses.Xunit",
         "items": [
             {
