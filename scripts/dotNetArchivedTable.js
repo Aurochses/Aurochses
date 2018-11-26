@@ -1,5 +1,11 @@
 var projects = [
     {
+        "name": "Aurochses.AspNetCore.Razor.TagHelpers",
+        "gitHubOwner": "Aurochses",
+        "gitHubRepository": "Aurochses.AspNetCore.Razor.TagHelpers",
+        "info": "Moved to <a href=\"https://github.com/Aurochses/Aurochses.AspNetCore.Razor\" target=\"_blank\">Aurochses.AspNetCore.Razor</a>"
+    },
+    {
         "name": "Aurochses.Data.EntityFramework",
         "gitHubOwner": "Aurochses",
         "gitHubRepository": "Aurochses.Data.EntityFramework",

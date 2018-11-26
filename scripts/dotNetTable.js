@@ -12,6 +12,65 @@ var projects = [
         ]
     },
     {
+        "groupName": "Aurochses.AspNetCore",
+        "items": [
+            {
+                "name": "Aurochses.AspNetCore.Html",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Html",
+                "nuGetPackage": "Aurochses.AspNetCore.Html",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.AspNetCore.Mvc",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Mvc",
+                "nuGetPackage": "Aurochses.AspNetCore.Mvc",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.AspNetCore.Razor",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Razor",
+                "nuGetPackage": "Aurochses.AspNetCore.Razor",
+                "info": "move to 2.1.0 based on Aurochses.AspNetCore.Razor.TagHelpers"
+            }
+        ]
+    },
+    {
+        "groupName": "Aurochses.AspNetCore.Identity",
+        "items": [
+            {
+                "name": "Aurochses.AspNetCore.Identity",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Identity",
+                "nuGetPackage": "Aurochses.AspNetCore.Identity",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
+                "nuGetPackage": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.AspNetCore.Identity.SendGrid",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Identity.SendGrid",
+                "nuGetPackage": "Aurochses.AspNetCore.Identity.SendGrid",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.AspNetCore.Identity.Twilio",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.AspNetCore.Identity.Twilio",
+                "nuGetPackage": "Aurochses.AspNetCore.Identity.Twilio",
+                "info": "move to 2.1.0"
+            }
+        ]
+    },
+    {
         "groupName": "Aurochses.Data",
         "items": [
             {
@@ -64,6 +123,44 @@ var projects = [
         ]
     },
     {
+        "groupName": "Aurochses.IdentityServer",
+        "items": [
+            {
+                "name": "Aurochses.IdentityServer.Website",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.IdentityServer.Website",
+                "nuGetPackage": "Aurochses.IdentityServer.Website",
+                "info": "move to 2.1.0 and rename WebSite to Website"
+            }
+        ]
+    },
+    {
+        "groupName": "Aurochses.Module",
+        "items": [
+            {
+                "name": "Aurochses.Module.Address",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Module.Address",
+                "nuGetPackage": "Aurochses.Module.Address",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.Module.Currency",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Module.Currency",
+                "nuGetPackage": "Aurochses.Module.Currency",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.Module.Setting",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Module.Setting",
+                "nuGetPackage": "Aurochses.Module.Setting",
+                "info": "move to 2.1.0"
+            }
+        ]
+    },
+    {
         "groupName": "Aurochses.Xunit",
         "items": [
             {
@@ -72,6 +169,27 @@ var projects = [
                 "gitHubRepository": "Aurochses.Xunit",
                 "nuGetPackage": "Aurochses.Xunit",
                 "info": "OK"
+            },
+            {
+                "name": "Aurochses.Xunit.AspNetCore.Mvc",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Xunit.AspNetCore.Mvc",
+                "nuGetPackage": "Aurochses.Xunit.AspNetCore.Mvc",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.Xunit.AspNetCore.Mvc.Localization",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Xunit.AspNetCore.Mvc.Localization",
+                "nuGetPackage": "Aurochses.Xunit.AspNetCore.Mvc.Localization",
+                "info": "move to 2.1.0"
+            },
+            {
+                "name": "Aurochses.Xunit.Selenium",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Xunit.Selenium",
+                "nuGetPackage": "Aurochses.Xunit.Selenium",
+                "info": "move to 2.1.0"
             }
         ]
     }
