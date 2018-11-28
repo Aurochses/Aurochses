@@ -111,6 +111,18 @@ var projects = [
         ]
     },
     {
+        "groupName": "Aurochses.Database",
+        "items": [
+            {
+                "name": "Aurochses.Database.EntityFrameworkCore",
+                "gitHubOwner": "Aurochses",
+                "gitHubRepository": "Aurochses.Database.EntityFrameworkCore",
+                "nuGetPackage": "Aurochses.Database.EntityFrameworkCore",
+                "info": "Tests required."
+            }
+        ]
+    },
+    {
         "groupName": "Aurochses.Extensions",
         "items": [
             {
