@@ -187,7 +187,7 @@ var projects = [
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Xunit.AspNetCore.Mvc",
                 "nuGetPackage": "Aurochses.Xunit.AspNetCore.Mvc",
-                "info": "move to 2.1.0"
+                "info": "OK"
             },
             {
                 "name": "Aurochses.Xunit.AspNetCore.Mvc.Localization",
