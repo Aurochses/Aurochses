@@ -19,7 +19,7 @@ var projects = [
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Html",
                 "nuGetPackage": "Aurochses.AspNetCore.Html",
-                "info": "move to 2.1.0"
+                "info": "OK"
             },
             {
                 "name": "Aurochses.AspNetCore.Mvc",
@@ -33,7 +33,7 @@ var projects = [
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Razor",
                 "nuGetPackage": "Aurochses.AspNetCore.Razor",
-                "info": "move to 2.1.0 based on Aurochses.AspNetCore.Razor.TagHelpers"
+                "info": "OK"
             }
         ]
     },
