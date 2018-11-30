@@ -133,7 +133,7 @@ var transforms = {
                         "html": [
                             {
                                 "<>": "img",
-                                "src": "https://david-dm.org/${gitHubOwner}/${gitHubRepository}.svg"
+                                "src": "https://img.shields.io/david/${gitHubOwner}/${gitHubRepository}.svg?style=flat-square"
                             }
                         ]
                     },
@@ -148,7 +148,7 @@ var transforms = {
                         "html": [
                             {
                                 "<>": "img",
-                                "src": "https://david-dm.org/${gitHubOwner}/${gitHubRepository}/dev-status.svg"
+                                "src": "https://img.shields.io/david/dev/${gitHubOwner}/${gitHubRepository}.svg?style=flat-square"
                             }
                         ]
                     }
