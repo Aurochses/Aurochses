@@ -271,11 +271,11 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
-                        "href": "http://nugetstatus.com/packages/${nuGetPackage}",
+                        "href": "https://libraries.io/nuget/${nuGetPackage}",
                         "html": [
                             {
                                 "<>": "img",
-                                "src": "http://nugetstatus.com/${nuGetPackage}.png"
+                                "src": "https://img.shields.io/librariesio/release/nuget/${nuGetPackage}.svg?style=flat-square"
                             }
                         ]
                     }
