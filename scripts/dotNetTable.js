@@ -1,4 +1,4 @@
-var projects = [
+var groups = [
     {
         "groupName": "Aurochses",
         "items": [
@@ -289,12 +289,12 @@ var transforms = {
     }
 };
 
-$("#dotNetTable > tbody").append(json2html.transform(projects, transforms.group));
+$("#dotNetTable > tbody").append(json2html.transform(groups, transforms.group));
 
 var total = 0;
 
-for (i = 0; i < projects.length; i++) {
-    total += projects[i].items.length;
+for (i = 0; i < groups.length; i++) {
+    total += groups[i].items.length;
 }
 
 $("#dotNetTableTotal").text(total);
