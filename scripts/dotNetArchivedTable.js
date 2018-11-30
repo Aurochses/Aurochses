@@ -70,7 +70,7 @@ var transforms = {
         {
             "<>": "td",
             "html": "${info}"
-        },
+        }
     ]
 };
 

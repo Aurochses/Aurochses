@@ -103,7 +103,27 @@ var transforms = {
                         "<>": "a",
                         "target": "_blank",
                         "href": "https://github.com/${gitHubOwner}/${gitHubRepository}",
-                        "html": "GitHub"
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/github/last-commit/${gitHubOwner}/${gitHubRepository}.svg?style=flat-square"
+                            }
+                        ]
+                    },
+                    {
+                        "<>": "span",
+                        "html": " "
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://github.com/${gitHubOwner}/${gitHubRepository}",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/github/license/${gitHubOwner}/${gitHubRepository}.svg?style=flat-square"
+                            }
+                        ]
                     }
                 ]
             },
@@ -120,12 +140,11 @@ var transforms = {
                                 "src": "https://img.shields.io/npm/v/${npmPackage}.svg?style=flat-square"
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "<>": "td",
-                "html": [
+                    },
+                    {
+                        "<>": "span",
+                        "html": " "
+                    },
                     {
                         "<>": "a",
                         "target": "_blank",
@@ -157,7 +176,7 @@ var transforms = {
             {
                 "<>": "td",
                 "html": "${info}"
-            },
+            }
         ]
     }
 };
