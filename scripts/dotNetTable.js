@@ -45,7 +45,7 @@ var projects = [
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Identity",
                 "nuGetPackage": "Aurochses.AspNetCore.Identity",
-                "info": "move to 2.1.0"
+                "info": "OK"
             },
             {
                 "name": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
