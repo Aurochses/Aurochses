@@ -26,7 +26,7 @@ var groups = [
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Mvc",
                 "nuGetPackage": "Aurochses.AspNetCore.Mvc",
-                "info": "move to 2.1.0"
+                "info": "OK"
             },
             {
                 "name": "Aurochses.AspNetCore.Razor",
