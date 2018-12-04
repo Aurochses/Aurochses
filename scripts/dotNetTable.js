@@ -244,6 +244,34 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
+                        "href": "https://github.com/${gitHubOwner}/${gitHubRepository}/issues",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/github/issues-raw/${gitHubOwner}/${gitHubRepository}.svg?style=flat-square"
+                            }
+                        ]
+                    },
+                    {
+                        "<>": "div"
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://github.com/${gitHubOwner}/${gitHubRepository}/pulls",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/github/issues-pr-raw/${gitHubOwner}/${gitHubRepository}.svg?style=flat-square"
+                            }
+                        ]
+                    },
+                    {
+                        "<>": "div"
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
                         "href": "https://github.com/${gitHubOwner}/${gitHubRepository}",
                         "html": [
                             {
@@ -253,8 +281,7 @@ var transforms = {
                         ]
                     },
                     {
-                        "<>": "span",
-                        "html": " "
+                        "<>": "div"
                     },
                     {
                         "<>": "a",
@@ -300,8 +327,7 @@ var transforms = {
                 ]
             },
             {
-                "<>": "span",
-                "html": " "
+                "<>": "div"
             },
             {
                 "<>": "a",
