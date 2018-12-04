@@ -141,7 +141,7 @@ var groups = [
                 "name": "Aurochses.IdentityServer.Website",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.IdentityServer.Website",
-                "nuGetPackage": "Aurochses.IdentityServer.Website",
+                "nuGetPackage": null,
                 "info": "move to 2.1.0 and rename WebSite to Website"
             }
         ]
@@ -270,39 +270,49 @@ var transforms = {
                 ]
             },
             {
-                "<>": "td",
-                "html": [
-                    {
-                        "<>": "a",
-                        "target": "_blank",
-                        "href": "https://www.nuget.org/packages/${nuGetPackage}",
-                        "html": [
-                            {
-                                "<>": "img",
-                                "src": "https://img.shields.io/nuget/v/${nuGetPackage}.svg?style=flat-square"
-                            }
-                        ]
-                    },
-                    {
-                        "<>": "span",
-                        "html": " "
-                    },
-                    {
-                        "<>": "a",
-                        "target": "_blank",
-                        "href": "https://libraries.io/nuget/${nuGetPackage}",
-                        "html": [
-                            {
-                                "<>": "img",
-                                "src": "https://img.shields.io/librariesio/release/nuget/${nuGetPackage}.svg?style=flat-square"
-                            }
-                        ]
+                "<>": "div",
+                "html": function (obj, index) {
+                    if (obj.nuGetPackage === null) {
+                        return "<td>-</td>";
                     }
-                ]
+
+                    return json2html.transform(obj, transforms.nuget);
+                }
             },
             {
                 "<>": "td",
                 "html": "${info}"
+            }
+        ]
+    },
+    "nuget": {
+        "<>": "td",
+        "html": [
+            {
+                "<>": "a",
+                "target": "_blank",
+                "href": "https://www.nuget.org/packages/${nuGetPackage}",
+                "html": [
+                    {
+                        "<>": "img",
+                        "src": "https://img.shields.io/nuget/v/${nuGetPackage}.svg?style=flat-square"
+                    }
+                ]
+            },
+            {
+                "<>": "span",
+                "html": " "
+            },
+            {
+                "<>": "a",
+                "target": "_blank",
+                "href": "https://libraries.io/nuget/${nuGetPackage}",
+                "html": [
+                    {
+                        "<>": "img",
+                        "src": "https://img.shields.io/librariesio/release/nuget/${nuGetPackage}.svg?style=flat-square"
+                    }
+                ]
             }
         ]
     }
