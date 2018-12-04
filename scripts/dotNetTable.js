@@ -214,7 +214,7 @@ var transforms = {
             {
                 "<>": "th",
                 "scope": "rowgroup",
-                "colspan": 6,
+                "colspan": 7,
                 "html": "${groupName}"
             },
             {
@@ -295,6 +295,14 @@ var transforms = {
                         ]
                     }
                 ]
+            },
+            {
+                "<>": "td",
+                "html": "build"
+            },
+            {
+                "<>": "td",
+                "html": "release"
             },
             {
                 "<>": "div",
