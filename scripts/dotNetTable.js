@@ -6,6 +6,12 @@ var groups = [
                 "name": "Aurochses.Runtime",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Runtime",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 370,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 1,
+                "azureDevOpsReleaseEnvironmentId": 1,
                 "nuGetPackage": "Aurochses.Runtime",
                 "info": "OK"
             }
@@ -298,11 +304,63 @@ var transforms = {
             },
             {
                 "<>": "td",
-                "html": "build"
+                "html": [
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/azure-devops/build/${azureDevOpsOrganization}/${azureDevOpsProject}/${azureDevOpsBuildId}/master.svg?style=flat-square"
+                            }
+                        ]
+                    },
+                    {
+                        "<>": "div"
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/azure-devops/tests/${azureDevOpsOrganization}/${azureDevOpsProject}/${azureDevOpsBuildId}/master.svg?style=flat-square"
+                            }
+                        ]
+                    },
+                    {
+                        "<>": "div"
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/azure-devops/coverage/${azureDevOpsOrganization}/${azureDevOpsProject}/${azureDevOpsBuildId}/master.svg?style=flat-square"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "<>": "td",
-                "html": "release"
+                "html": [
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_release",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/azure-devops/release/${azureDevOpsOrganization}/${azureDevOpsReleaseProjectId}/${azureDevOpsReleaseId}/${azureDevOpsReleaseEnvironmentId}.svg?style=flat-square"
+                            }
+                        ]
+                    },
+                ]
             },
             {
                 "<>": "div",
