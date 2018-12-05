@@ -23,13 +23,56 @@
         <h1 class="text-center">Generate README</h1>
     </div>
 
-    <div class="container">
-        <div class="text-center">
-            under construction...
+    <div class="bg-info text-white p-5">
+        <div class="container">
+            <form onsubmit="generateReadMe(this, 'outputZone', 'output'); return false;">
+                <div class="form-group">
+                    <label for="projectName">Project Name</label>
+                    <input id="projectName" class="form-control" placeholder="Project Name" value="Aurochses.Runtime">
+                </div>
+                <div class="form-group">
+                    <label for="projectDescription">Description</label>
+                    <textarea id="projectDescription" class="form-control" rows="3">Aurochses.Runtime is a library based on System.Runtime.</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackage">NuGet Package</label>
+                    <input id="nuGetPackage" class="form-control" placeholder="NuGet Package" value="Aurochses.Runtime">
+                </div>
+                <div class="form-group">
+                    <label for="azureDevOpsOrganization">Azure DevOps Organization</label>
+                    <input id="azureDevOpsOrganization" class="form-control" placeholder="Azure DevOps Organization"
+                        value="Aurochses">
+                </div>
+                <div class="form-group">
+                    <label for="azureDevOpsProject">Azure DevOps Project</label>
+                    <input id="azureDevOpsProject" class="form-control" placeholder="Azure DevOps Project" value="Aurochses.GitHub">
+                </div>
+                <div class="form-group">
+                    <label for="azureDevOpsBuildId">Azure DevOps Build Id</label>
+                    <input id="azureDevOpsBuildId" type="number" class="form-control" placeholder="Azure DevOps Build Id"
+                        value="370">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-light btn-lg">Process</button>
+                </div>
+            </form>
         </div>
     </div>
 
-    <footer>
+    <div id="outputZone" class="bg-dark text-white p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <textarea id="output" style="min-width: 100%; min-height: 400px;"></textarea>
+                </div>
+                <div class="col">
+                    preview
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-3">
         <p>© Aurochses</p>
         <p>
             <a href="https://github.com/Aurochses" target="_blank">
@@ -47,12 +90,9 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
 
-    <script src="scripts/dotNetTable.js"></script>
-    <script src="scripts/dotNetArchivedTable.js"></script>
-
-    <script src="scripts/angularTable.js"></script>
-    <script src="scripts/angularArchivedTable.js"></script>
+    <script src="./scripts/generateReadMe.js"></script>
 </body>
 
 </html>
