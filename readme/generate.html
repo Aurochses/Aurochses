@@ -71,8 +71,8 @@
                         </div>
                         <div>
                             <div class="btn-group" role="group">
-                                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
-                                    title="Copy to Clipboard">
+                                <button type="button" class="btn btn-secondary" data-clipboard-target="#output"
+                                    data-toggle="tooltip" data-placement="top" title="Copy to Clipboard">
                                     <i class="fas fa-copy"></i>
                                 </button>
                                 <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
@@ -129,13 +129,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ="
+        crossorigin="anonymous"></script>
 
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip();
         });
+
+        new ClipboardJS('.btn');
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
     <script src="./scripts/generateReadMe.js"></script>
 </body>
