@@ -4,6 +4,7 @@ const dotNetGroups = [
         "items": [
             {
                 "name": "Aurochses.Runtime",
+                "description": "Aurochses.Runtime is a library based on System.Runtime.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Runtime",
                 "azureDevOpsOrganization": "Aurochses",

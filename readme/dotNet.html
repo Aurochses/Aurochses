@@ -29,16 +29,16 @@
         <div class="container">
             <form onsubmit="generateReadMe(this, 'outputZone', 'output', 'outputPreview'); return false;">
                 <div class="form-group">
-                    <label for="project">Select Project</label>
-                    <select class="form-control" id="project"></select>
+                    <label for="project">Project</label>
+                    <select id="project" class="form-control" onchange="fillProject(this)"></select>
                 </div>
                 <div class="form-group">
-                    <label for="projectName">Project Name</label>
-                    <input id="projectName" class="form-control" placeholder="Project Name" value="Aurochses.Runtime">
+                    <label for="name">Name</label>
+                    <input id="name" class="form-control" placeholder="Name" value="Aurochses.Runtime">
                 </div>
                 <div class="form-group">
-                    <label for="projectDescription">Description</label>
-                    <textarea id="projectDescription" class="form-control" rows="3">Aurochses.Runtime is a library based on System.Runtime.</textarea>
+                    <label for="description">Description</label>
+                    <textarea id="description" class="form-control" rows="3">Aurochses.Runtime is a library based on System.Runtime.</textarea>
                 </div>
                 <div class="form-group">
                     <label for="nuGetPackage">NuGet Package</label>
