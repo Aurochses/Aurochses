@@ -20,6 +20,8 @@ function groupsToSelect(groups, selectElementId) {
             select.options[select.options.length] = new Option(project, project);
         }
     );
+
+    $(`#${selectElementId}`).trigger("onchange");
 }
 
 function findProject(groups, name) {
