@@ -1,5 +1,9 @@
-function generateReadMe(form, scrollToElementId, outputElementId) {
-    console.log(form.projectName.value);
+function generateReadMe(form, scrollToElementId, outputElementId, outputPreviewElementId) {
+    var converter = new showdown.Converter(
+        {
+            tables: true
+        }
+    );
 
     var template = 
 `# ${form.projectName.value}
@@ -21,6 +25,7 @@ ${getAzureDevOps(form, 'master')}
 `;
 
     $(`#${outputElementId}`).val(template);
+    $(`#${outputPreviewElementId}`).html(converter.makeHtml(template));
 
     $(`#${scrollToElementId}`)[0].scrollIntoView(true);
 }
