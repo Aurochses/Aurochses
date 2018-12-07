@@ -6,7 +6,7 @@ function fillProject(select) {
     }
 }
 
-function generateReadMe(form, scrollToElementId, outputElementId, outputPreviewElementId) {
+function generateOutput(form, scrollToElementId, outputElementId, outputPreviewElementId) {
     var converter = new showdown.Converter(
         {
             tables: true

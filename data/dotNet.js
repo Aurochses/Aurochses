@@ -14,6 +14,7 @@ const dotNetGroups = [
                 "azureDevOpsReleaseId": 1,
                 "azureDevOpsReleaseEnvironmentId": 1,
                 "nuGetPackage": "Aurochses.Runtime",
+                "nuGetPackageVersion": "2.1.0",
                 "info": "OK"
             }
         ]
