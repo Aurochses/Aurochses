@@ -37,27 +37,39 @@
             <div class="container">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input id="name" class="form-control" placeholder="Name">
+                    <input id="name" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="description">Description</label>
-                    <textarea id="description" class="form-control" rows="2"></textarea>
+                    <textarea id="description" class="form-control" rows="2" required></textarea>
                 </div>
                 <div class="form-group">
                     <label for="nuGetPackage">NuGet Package</label>
-                    <input id="nuGetPackage" class="form-control" placeholder="NuGet Package">
+                    <input id="nuGetPackage" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="azureDevOpsOrganization">Azure DevOps Organization</label>
-                    <input id="azureDevOpsOrganization" class="form-control" placeholder="Azure DevOps Organization">
+                    <input id="azureDevOpsOrganization" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="azureDevOpsProject">Azure DevOps Project</label>
-                    <input id="azureDevOpsProject" class="form-control" placeholder="Azure DevOps Project">
+                    <input id="azureDevOpsProject" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="azureDevOpsBuildId">Azure DevOps Build Id</label>
-                    <input id="azureDevOpsBuildId" type="number" class="form-control" placeholder="Azure DevOps Build Id">
+                    <input id="azureDevOpsBuildId" type="number" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="azureDevOpsReleaseProjectId">Azure DevOps Release Project Id</label>
+                    <input id="azureDevOpsReleaseProjectId" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="azureDevOpsReleaseId">Azure DevOps Release Id</label>
+                    <input id="azureDevOpsReleaseId" type="number" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="azureDevOpsReleaseEnvironmentId">Azure DevOps Release Environment Id</label>
+                    <input id="azureDevOpsReleaseEnvironmentId" type="number" class="form-control" required>
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-light btn-lg">Process</button>

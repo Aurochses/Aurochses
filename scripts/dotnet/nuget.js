@@ -1,5 +1,9 @@
 function fillProject(select) {
-    var project = findProject(dotNetGroups, select.value);
+    var selectedValue = select.value;
+    $('form')[0].reset();
+    select.value = selectedValue;
+
+    var project = findProject(dotNetGroups, selectedValue);
 
     for (key in project) {
         $(`form #${key}`).val(project[key]);

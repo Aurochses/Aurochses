@@ -1,5 +1,9 @@
 function fillProject(select) {
-    var project = findProject(dotNetGroups, select.value);
+    var selectedValue = select.value;
+    $('form')[0].reset();
+    select.value = selectedValue;
+
+    var project = findProject(dotNetGroups, selectedValue);
 
     for (key in project) {
         $(`form #${key}`).val(project[key]);
@@ -24,6 +28,8 @@ ${form.description.value}
 [![NuGet Downloads](https://img.shields.io/nuget/dt/${form.nuGetPackage.value}.svg?style=flat-square)](https://www.nuget.org/packages/${form.nuGetPackage.value})
 
 ## Azure DevOps
+
+[![Build](https://img.shields.io/azure-devops/release/${form.azureDevOpsOrganization.value}/${form.azureDevOpsReleaseProjectId.value}/${form.azureDevOpsReleaseId.value}/${form.azureDevOpsReleaseEnvironmentId.value}.svg?style=flat-square)](https://${form.azureDevOpsOrganization.value}.visualstudio.com/${form.azureDevOpsProject.value}/_release?definitionId=${form.azureDevOpsReleaseId.value})
 
 Branch     | Build | Tests | Coverage
 -----------|-------|-------|----------

@@ -139,7 +139,7 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
-                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_release",
+                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_release?definitionId=${azureDevOpsReleaseId}",
                         "html": [
                             {
                                 "<>": "img",
