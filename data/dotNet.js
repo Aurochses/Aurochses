@@ -15,6 +15,11 @@ const dotNetGroups = [
                 "azureDevOpsReleaseEnvironmentId": 1,
                 "nuGetPackage": "Aurochses.Runtime",
                 "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "System Runtime",
                 "info": "OK"
             }
         ]

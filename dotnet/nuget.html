@@ -26,7 +26,7 @@
     </div>
 
     <div class="bg-info text-white p-5">
-        <form onsubmit="generateOutput(this, 'outputZone', 'output', 'outputPreview'); return false;">
+        <form onsubmit="generateOutput(this, 'outputZone', 'output'); return false;">
             <div class="container">
                 <div class="form-group">
                     <label for="project">Project</label>
@@ -36,8 +36,44 @@
             <hr class="my-4" style="border-top: 2px dashed;" />
             <div class="container">
                 <div class="form-group">
+                    <label for="gitHubOwner">GitHub Owner</label>
+                    <input id="gitHubOwner" class="form-control" placeholder="GitHub Owner">
+                </div>
+                <div class="form-group">
+                    <label for="gitHubRepository">GitHub Repository</label>
+                    <input id="gitHubRepository" class="form-control" placeholder="GitHub Repository">
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackage">Package</label>
+                    <input id="nuGetPackage" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
                     <label for="nuGetPackageVersion">Version</label>
                     <input id="nuGetPackageVersion" class="form-control" placeholder="Version">
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackageAuthors">Authors</label>
+                    <input id="nuGetPackageAuthors" class="form-control" placeholder="Authors">
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackageCompany">Company</label>
+                    <input id="nuGetPackageCompany" class="form-control" placeholder="Company">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" class="form-control" rows="2"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackageCopyright">Copyright</label>
+                    <input id="nuGetPackageCopyright" class="form-control" placeholder="Copyright">
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackageIconUrl">Icon Url</label>
+                    <input id="nuGetPackageIconUrl" class="form-control" placeholder="Icon Url">
+                </div>
+                <div class="form-group">
+                    <label for="nuGetPackageTags">Tags</label>
+                    <input id="nuGetPackageTags" class="form-control" placeholder="Tags">
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-light btn-lg">Process</button>
