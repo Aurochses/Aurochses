@@ -29,7 +29,23 @@ var transforms = {
             },
             {
                 "<>": "td",
-                "html": "${name}"
+                "html": [
+                    {
+                        "<>": "span",
+                        "html": "${name} "
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://github.com/${gitHubOwner}/${gitHubRepository}",
+                        "html": [
+                            {
+                                "<>": "i",
+                                "class": "fab fa-github fa-fw"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "<>": "td",
