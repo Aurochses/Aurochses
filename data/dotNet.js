@@ -210,9 +210,22 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.Xunit.AspNetCore.Mvc",
+                "description": "Aurochses.Xunit.AspNetCore.Mvc is a library for creating xUnit tests for ASP.NET Core MVC.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Xunit.AspNetCore.Mvc",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 383,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 3,
+                "azureDevOpsReleaseEnvironmentId": 3,
                 "nuGetPackage": "Aurochses.Xunit.AspNetCore.Mvc",
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Test Unit xUnit ASP.NET Core MVC",
                 "info": "OK"
             },
             {
