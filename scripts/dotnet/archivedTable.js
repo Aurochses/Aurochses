@@ -31,6 +31,6 @@ var transforms = {
     ]
 };
 
-$("#dotNetArchivedTable > tbody").append(json2html.transform(projects, transforms));
+$("#archivedTable > tbody").append(json2html.transform(projects, transforms));
 
-$("#dotNetArchivedTableTotal").text(projects.length);
+$("#archivedTableTotal").text(projects.length);

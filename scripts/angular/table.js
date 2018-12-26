@@ -217,7 +217,7 @@ var transforms = {
     }
 };
 
-$("#angularTable > tbody").append(json2html.transform(groups, transforms.group));
+$("#table > tbody").append(json2html.transform(groups, transforms.group));
 
 var total = 0;
 
@@ -225,4 +225,4 @@ for (i = 0; i < groups.length; i++) {
     total += groups[i].items.length;
 }
 
-$("#angularTableTotal").text(total);
+$("#tableTotal").text(total);
