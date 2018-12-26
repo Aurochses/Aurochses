@@ -49,9 +49,22 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.AspNetCore.Mvc",
+                "description": "Aurochses.AspNetCore.Mvc is a library for ASP.NET Core MVC.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Mvc",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 382,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 5,
+                "azureDevOpsReleaseEnvironmentId": 5,
                 "nuGetPackage": "Aurochses.AspNetCore.Mvc",
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "MVC ASP.NET Core",
                 "info": "OK"
             },
             {
