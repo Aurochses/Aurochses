@@ -114,10 +114,23 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
+                "description": "Aurochses.AspNetCore.Identity.EntityFrameworkCore is a library for ASP.NET Core Identity using Entity Framework Core.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 388,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 10,
+                "azureDevOpsReleaseEnvironmentId": 10,
                 "nuGetPackage": "Aurochses.AspNetCore.Identity.EntityFrameworkCore",
-                "info": "move to 2.1.0"
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Entity Framework Core Identity ASP.NET Core",
+                "info": "OK"
             },
             {
                 "name": "Aurochses.AspNetCore.Identity.SendGrid",
