@@ -154,10 +154,23 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.AspNetCore.Identity.Twilio",
+                "description": "Aurochses.AspNetCore.Identity.Twilio is a library for ASP.NET Core Identity with Twilio.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.AspNetCore.Identity.Twilio",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 390,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 12,
+                "azureDevOpsReleaseEnvironmentId": 12,
                 "nuGetPackage": "Aurochses.AspNetCore.Identity.Twilio",
-                "info": "move to 2.1.0"
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Twilio Identity ASP.NET Core",
+                "info": "OK"
             }
         ]
     },
