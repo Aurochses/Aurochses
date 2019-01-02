@@ -199,9 +199,22 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.Data.Autofac.EntityFrameworkCore",
+                "description": "Aurochses.Data.Autofac.EntityFrameworkCore is a library for using Autofac in modules with Entity Framework Core.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Data.Autofac.EntityFrameworkCore",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 374,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 14,
+                "azureDevOpsReleaseEnvironmentId": 14,
                 "nuGetPackage": "Aurochses.Data.Autofac.EntityFrameworkCore",
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Autofac Data Business Module Entity Framework Core",
                 "info": "OK"
             },
             {
