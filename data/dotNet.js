@@ -239,9 +239,22 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.Data.EntityFrameworkCore",
+                "description": "Aurochses.Data.EntityFrameworkCore is a library to access database with Unit of Work, Repository and Entity classes for Entity Framework Core.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Data.EntityFrameworkCore",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 376,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 16,
+                "azureDevOpsReleaseEnvironmentId": 16,
                 "nuGetPackage": "Aurochses.Data.EntityFrameworkCore",
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Entity Framework Core Data UnitOfWork Repository Entity",
                 "info": "OK"
             },
             {
