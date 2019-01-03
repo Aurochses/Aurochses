@@ -284,10 +284,23 @@ const dotNetGroups = [
         "items": [
             {
                 "name": "Aurochses.Database.EntityFrameworkCore",
+                "description": "Aurochses.Database.EntityFrameworkCore is a library for creating database projects.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Database.EntityFrameworkCore",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 380,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 19,
+                "azureDevOpsReleaseEnvironmentId": 19,
                 "nuGetPackage": "Aurochses.Database.EntityFrameworkCore",
-                "info": "Tests required."
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Entity Framework Core Database",
+                "info": "OK"
             }
         ]
     },
