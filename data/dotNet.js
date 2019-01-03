@@ -296,9 +296,22 @@ const dotNetGroups = [
         "items": [
             {
                 "name": "Aurochses.Extensions.Configuration",
+                "description": "Aurochses.Extensions.Configuration is a library based on Microsoft.Extensions.Configuration.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Extensions.Configuration",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 378,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 18,
+                "azureDevOpsReleaseEnvironmentId": 18,
                 "nuGetPackage": "Aurochses.Extensions.Configuration",
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "Extensions Configuration",
                 "info": "OK"
             }
         ]
