@@ -259,9 +259,22 @@ const dotNetGroups = [
             },
             {
                 "name": "Aurochses.Data.Extensions.MsSql",
+                "description": "Aurochses.Data.Extensions.MsSql is a library to use MS SQL extensions.",
                 "gitHubOwner": "Aurochses",
                 "gitHubRepository": "Aurochses.Data.Extensions.MsSql",
+                "azureDevOpsOrganization": "Aurochses",
+                "azureDevOpsProject": "Aurochses.GitHub",
+                "azureDevOpsBuildId": 377,
+                "azureDevOpsReleaseProjectId": "61cd8e26-670f-4d15-9b53-5e73a476a30f",
+                "azureDevOpsReleaseId": 17,
+                "azureDevOpsReleaseEnvironmentId": 17,
                 "nuGetPackage": "Aurochses.Data.Extensions.MsSql",
+                "nuGetPackageVersion": "2.1.0",
+                "nuGetPackageAuthors": "Aurochses",
+                "nuGetPackageCompany": "Aurochses",
+                "nuGetPackageCopyright": "Aurochses 2017",
+                "nuGetPackageIconUrl": "https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64",
+                "nuGetPackageTags": "MS SQL Extensions",
                 "info": "OK"
             }
         ]
