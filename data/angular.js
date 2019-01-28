@@ -70,12 +70,12 @@ const angularArchivedProjects = [
         "name": "Aurochses.Angular.Forms",
         "gitHubOwner": "Aurochses",
         "gitHubRepository": "Aurochses.Angular.Forms",
-        "info": "Please use this instead <a href=\"https://js.devexpress.com/\" target=\"_blank\">DevExtreme</a>"
+        "info": "Please use <a href=\"https://js.devexpress.com/\" target=\"_blank\">DevExtreme</a> instead"
     },
     {
         "name": "Aurochses.Angular.Table",
         "gitHubOwner": "Aurochses",
         "gitHubRepository": "Aurochses.Angular.Table",
-        "info": "Please use this instead <a href=\"https://js.devexpress.com/\" target=\"_blank\">DevExtreme</a>"
+        "info": "Please use <a href=\"https://js.devexpress.com/\" target=\"_blank\">DevExtreme</a> instead"
     }
 ];
