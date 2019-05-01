@@ -111,7 +111,7 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
-                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
+                        "href": "https://dev.azure.com/${azureDevOpsOrganization}/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
                         "html": [
                             {
                                 "<>": "img",
@@ -125,7 +125,7 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
-                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
+                        "href": "https://dev.azure.com/${azureDevOpsOrganization}/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
                         "html": [
                             {
                                 "<>": "img",
@@ -139,7 +139,7 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
-                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
+                        "href": "https://dev.azure.com/${azureDevOpsOrganization}/${azureDevOpsProject}/_build/latest?definitionId=${azureDevOpsBuildId}&branchName=master",
                         "html": [
                             {
                                 "<>": "img",
@@ -155,7 +155,7 @@ var transforms = {
                     {
                         "<>": "a",
                         "target": "_blank",
-                        "href": "https://${azureDevOpsOrganization}.visualstudio.com/${azureDevOpsProject}/_release",
+                        "href": "https://dev.azure.com/${azureDevOpsOrganization}/${azureDevOpsProject}/_release",
                         "html": [
                             {
                                 "<>": "img",

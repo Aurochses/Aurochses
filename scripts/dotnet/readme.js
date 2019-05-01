@@ -29,7 +29,7 @@ ${form.description.value}
 
 ## Azure DevOps
 
-[![Build](https://img.shields.io/azure-devops/release/${form.azureDevOpsOrganization.value}/${form.azureDevOpsReleaseProjectId.value}/${form.azureDevOpsReleaseId.value}/${form.azureDevOpsReleaseEnvironmentId.value}.svg?style=flat-square)](https://${form.azureDevOpsOrganization.value}.visualstudio.com/${form.azureDevOpsProject.value}/_release?definitionId=${form.azureDevOpsReleaseId.value})
+[![Build](https://img.shields.io/azure-devops/release/${form.azureDevOpsOrganization.value}/${form.azureDevOpsReleaseProjectId.value}/${form.azureDevOpsReleaseId.value}/${form.azureDevOpsReleaseEnvironmentId.value}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_release?definitionId=${form.azureDevOpsReleaseId.value})
 
 Branch     | Build | Tests | Coverage
 -----------|-------|-------|----------
@@ -47,9 +47,9 @@ ${getAzureDevOps(form, 'master')}
 function getAzureDevOps(form, branch) {
     return `${branch}` +
         ' | ' +
-        `[![Build](https://img.shields.io/azure-devops/build/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://${form.azureDevOpsOrganization.value}.visualstudio.com/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})` +
+        `[![Build](https://img.shields.io/azure-devops/build/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})` +
         ' | ' +
-        `[![Tests](https://img.shields.io/azure-devops/tests/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://${form.azureDevOpsOrganization.value}.visualstudio.com/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})` +
+        `[![Tests](https://img.shields.io/azure-devops/tests/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})` +
         ' | ' +
-        `[![Coverage](https://img.shields.io/azure-devops/coverage/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://${form.azureDevOpsOrganization.value}.visualstudio.com/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})`;
+        `[![Coverage](https://img.shields.io/azure-devops/coverage/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})`;
 }
