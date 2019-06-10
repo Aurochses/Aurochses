@@ -146,6 +146,20 @@ var transforms = {
                                 "src": "https://img.shields.io/azure-devops/coverage/${azureDevOpsOrganization}/${azureDevOpsProject}/${azureDevOpsBuildId}/master.svg?style=flat-square"
                             }
                         ]
+                    },
+                    {
+                        "<>": "div"
+                    },
+                    {
+                        "<>": "a",
+                        "target": "_blank",
+                        "href": "https://sonarcloud.io/dashboard?id=${sonarCloudProject}",
+                        "html": [
+                            {
+                                "<>": "img",
+                                "src": "https://img.shields.io/sonar/https/sonarcloud.io/${sonarCloudProject}/quality_gate.svg?style=flat-square"
+                            }
+                        ]
                     }
                 ]
             },
