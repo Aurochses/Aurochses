@@ -29,27 +29,16 @@ ${form.description.value}
 
 ## Azure DevOps
 
-[![Build](https://img.shields.io/azure-devops/release/${form.azureDevOpsOrganization.value}/${form.azureDevOpsReleaseProjectId.value}/${form.azureDevOpsReleaseId.value}/${form.azureDevOpsReleaseEnvironmentId.value}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_release?definitionId=${form.azureDevOpsReleaseId.value})
+[![Build](https://img.shields.io/azure-devops/build/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/master.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=master)
+[![Tests](https://img.shields.io/azure-devops/tests/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/master.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=master)
+[![Coverage](https://img.shields.io/azure-devops/coverage/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/master.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=master)
+[![SonarCloud](https://img.shields.io/sonar/https/sonarcloud.io/${form.sonarCloudProject.value}/quality_gate.svg?style=flat-square)](https://sonarcloud.io/dashboard?id=${form.sonarCloudProject.value})
 
-Branch     | Build | Tests | Coverage
------------|-------|-------|----------
-${getAzureDevOps(form, 'develop')}
-${getAzureDevOps(form, 'pre-master')}
-${getAzureDevOps(form, 'master')}
+[![Release](https://img.shields.io/azure-devops/release/${form.azureDevOpsOrganization.value}/${form.azureDevOpsReleaseProjectId.value}/${form.azureDevOpsReleaseId.value}/${form.azureDevOpsReleaseEnvironmentId.value}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_release?definitionId=${form.azureDevOpsReleaseId.value})
 `;
 
     $(`#${outputElementId}`).val(template);
     $(`#${outputPreviewElementId}`).html(converter.makeHtml(template));
 
     $(`#${scrollToElementId}`)[0].scrollIntoView(true);
-}
-
-function getAzureDevOps(form, branch) {
-    return `${branch}` +
-        ' | ' +
-        `[![Build](https://img.shields.io/azure-devops/build/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})` +
-        ' | ' +
-        `[![Tests](https://img.shields.io/azure-devops/tests/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})` +
-        ' | ' +
-        `[![Coverage](https://img.shields.io/azure-devops/coverage/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/${form.azureDevOpsBuildId.value}/${branch}.svg?style=flat-square)](https://dev.azure.com/${form.azureDevOpsOrganization.value}/${form.azureDevOpsProject.value}/_build/latest?definitionId=${form.azureDevOpsBuildId.value}&branchName=${branch})`;
 }
